@@ -1,0 +1,54 @@
+body {
+  margin: 0;
+}
+
+.right ul {
+  list-style: none;
+  text-align: right;
+}
+
+.right li {
+  display: inline;
+  font-size: 20px;
+  padding-right: 10px;
+}
+.dp {
+  border-radius: 50%;
+}
+.logo img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+  padding-top: 10%;
+}
+.search input {
+  display: block;
+  margin-top: 10em;
+  margin-left: auto;
+  margin-right: auto;
+
+  width: 40em;
+  height: 3em;
+  border-width: 1px;
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+  border-top-left-radius: 25px;
+  border-bottom-left-radius: 25px;
+}
+.button ul{
+    list-style: none;
+  text-align: center;
+}
+.button li{
+    display: inline-block;
+    padding: 10px;
+    margin: 10px;
+}
+.button input{
+    border-width: 0px;
+    padding: 10px;
+}
+.button input:hover{
+    border-width: 0.1px;
+}
